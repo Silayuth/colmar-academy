@@ -1,0 +1,259 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* header */
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 64px;;
+    position: sticky;
+    
+}
+
+.navmobile {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 64px;
+    position: sticky;
+    align-items: center;
+}
+
+.ic-logo {
+    display: flex;
+    align-items: center;
+    
+    padding: 24px;
+    font-size: 24px;
+}
+
+.logocolmar {
+    display: flex;
+    align-items: center;
+}
+
+.spancolmar {
+    font-weight: bold;
+}
+
+.spanacademy a {
+    color: gray;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    list-style: none;
+    padding: 24px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* section hero */
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 24px;
+    background-color: rgb(168, 168, 168);
+    
+}
+
+img.banner {
+    width: 100%;
+    
+    }
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: 24px;
+    gap: 16px;
+    
+    
+}
+
+.start-here {
+    padding: 24px;
+    display: inline-block;
+    color: white;
+    background-color: rgb(80, 80, 80);
+    width: 80%;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all .3s;
+    box-shadow: 0 1rem 2rem rgb(255, 255, 255);
+    font-size: 1.5rem;
+}
+
+.text1 {
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+/* section info */
+
+.infomation {
+    display: flex;
+    margin: 32px 24px;
+    
+
+}
+
+.infoleft {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding: 24px;
+    padding-top: 32px;
+    width: 60%;
+    
+}    
+
+
+
+.info-image {
+    width: 100%;
+    
+}
+
+.text-sec2 {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    padding-left: 24px;
+    gap: 16px;
+    width: 60%;
+}
+
+.text-left1 {
+    font-weight: bolder;
+    font-size: 3.5rem;
+}
+
+.text-left2 {
+    font-weight: lighter;
+    padding-bottom: 24px;
+}
+
+.text-left3 {
+    font-weight: bolder;
+}
+
+.inforight {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px black;
+    width: 40%;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.information-orientation {
+    width: auto;
+    padding: 16px;
+}
+
+.box1-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 24px;
+    gap: 32px;
+    
+}
+
+.infotext1 {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.infotext2 {
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+.readmore {
+    color: rgb(71, 130, 218);
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.box2-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 24px;
+    gap: 32px;
+    
+}
+
+img.information-guest-lecture {
+    width: auto;
+    padding: 16px;
+}
+/* section course */
+
+.course {
+    text-align: center;
+    font-size: 3rem;
+}
+
+/* section thesis */
+
+.thesis {
+    text-align: center;
+    font-size: 3rem;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 24px;
+    padding-top: 16px;
+}
+
+.footer-p {
+    padding-left: 24px;
+    padding-top: 16px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    nav.navbar {
+    display: none;
+}
+@media only screen and (max-width: 37.5em) {
+    .nav--mobile {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+}
