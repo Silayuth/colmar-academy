@@ -2,56 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
-
- 
-
-
-
-@media screen and (max-width: 600px) {
- 
-
-    section {
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-    
-    .navbar {
-        display: none;
-    }
-
-    
-    .thesis1 video {
-        width: 150%;
-    }
-    
-    .thesiszone {
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-    
-    }
-
-    @media screen and (max-width: 390px) {
- 
-
-        section {
-            flex-direction: column;
-            flex-wrap: wrap;
-        }
-        
-       
-        
-        .thesis1 video {
-            width: 150%;
-        }
-        
-        .thesiszone {
-            flex-direction: column;
-            flex-wrap: wrap;
-        }
-        
-        }
-
 * {
     padding: 0;
     margin: 0;
@@ -76,14 +26,9 @@ body {
 }
 
  .navmobile {   
-    display: flex;
-    justify-content: space-evenly;
-    gap: 64px;
-    position: sticky;
-    align-items: center;
-    top: 0;
-    background-color: aliceblue;
+    
     display: none;
+
  } 
 
 .ic-logo {
@@ -412,15 +357,43 @@ footer {
     text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
-    nav.navbar {
-    display: none;
-}
-@media only screen and (max-width: 37.5em) {
-    .nav--mobile {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
+@media screen and (max-width: 600px) {
+ 
+
+    section {
+        flex-direction: column;
+        flex-wrap: wrap;
     }
-}
-}
+    
+    .navmobile {
+        display: block;
+        display: flex;
+        justify-content: space-evenly;
+        gap: 64px;
+        align-items: center;
+        position: sticky;
+        top: 1;
+        height: 64px;
+        background-color: aliceblue;
+    }
+    
+    .thesis1 video {
+        width: 150%;
+    }
+    
+    .thesiszone {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    }
+
+    @media screen and (max-width: 600px) {
+
+        .navbar {
+            display: none;
+        }
+    }
+ 
+
+        
