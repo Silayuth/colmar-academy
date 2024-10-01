@@ -5,27 +5,7 @@
 
  
 
-@media screen and (max-width: 480px) {
- 
 
-section {
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-
-
-
-.thesis1 video {
-    width: 150%;
-}
-
-.thesiszone {
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-}
 
 @media screen and (max-width: 600px) {
  
@@ -35,10 +15,10 @@ section {
         flex-wrap: wrap;
     }
     
-    
-    .navmobile {
+    .navbar {
         display: none;
     }
+
     
     .thesis1 video {
         width: 150%;
@@ -103,6 +83,7 @@ body {
     align-items: center;
     top: 0;
     background-color: aliceblue;
+    display: none;
  } 
 
 .ic-logo {
